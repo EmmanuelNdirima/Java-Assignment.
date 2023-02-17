@@ -78,7 +78,7 @@ class CalculateG {
         double squareResult2 = square(secondNum);
         double summationResult = summation(firstNum, secondNum);
 
-        // Calling methods created beore to print out results
+        // Calling methods created before to print out results
         outline("Multiplication result: ", multiplicationResult);
         outline("Square result for " + firstNum + " is :", squareResult1);
         outline("Square result for " + secondNum + " is :", squareResult2);
